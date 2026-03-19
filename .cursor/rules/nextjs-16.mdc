@@ -1,0 +1,11 @@
+---
+description: Next.js 16+ — do not assume older Next.js APIs from training data
+alwaysApply: true
+---
+
+# This is NOT the Next.js you know
+
+This project uses **Next.js 16** with breaking changes — APIs, conventions, and file structure may differ from older docs or model training data.
+
+- Before changing routing, data fetching, or config, read the relevant guide in **`node_modules/next/dist/docs/`** (or the official Next.js docs for your installed version).
+- Heed deprecation notices and verify APIs against the installed package, not memory.

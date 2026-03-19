@@ -16,6 +16,19 @@ _PoliLex Bilingual — home page with conjugation table and hero messaging_
 
 ---
 
+## Cursor & AI (project rules)
+
+Persistent guidance for this repo lives in **`.cursor/rules/`**:
+
+| File | Purpose |
+|------|---------|
+| `nextjs-16.mdc` | Next.js 16+ — check `node_modules/next/dist/docs/`, don’t assume older APIs |
+| `portfolio-showcase.mdc` | Portfolio paths, theme (`next-themes` + class-based `dark:`), product URL |
+
+**`AGENTS.md`** summarizes the same and points here. Rules use `alwaysApply: true` so Cursor includes them in agent context.
+
+---
+
 ## 🛠️ **Tech Stack Overview**
 
 | **Category**                 | **Technology / Tools**                               | **Purpose**                                          |

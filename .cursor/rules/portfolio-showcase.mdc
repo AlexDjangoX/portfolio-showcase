@@ -1,0 +1,12 @@
+---
+description: Portfolio showcase app — structure, content, and theme
+alwaysApply: true
+---
+
+# Portfolio showcase (this repo)
+
+- **Routes:** `src/app/(portfolio)/` — `/portfolio` index and `/portfolio/[slug]` detail pages.
+- **Content:** Edit `src/lib/portfolio/portfolio-data.ts`. Flow diagram data: `src/lib/portfolio/portfolio-flow-diagrams.ts`.
+- **Images:** Place files under `public/` and reference with root paths (e.g. `/home-page.png`).
+- **Theme:** `next-themes` + `ThemeProvider` in root layout. Tailwind `dark:` uses **class** strategy via `@custom-variant dark` in `globals.css` — do not rely only on `prefers-color-scheme` for toggles.
+- **Live product link:** Navbar “View App” → `https://polish-ai-tutor.com/`.

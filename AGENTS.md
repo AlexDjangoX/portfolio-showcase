@@ -1,5 +1,11 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Agent / AI instructions
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+Cursor loads project rules from **`.cursor/rules/*.mdc`** (`alwaysApply: true`). Keep those files updated when conventions change.
+
+## Next.js version
+
+This is **not** the Next.js from older training data. Next.js 16 has breaking changes — APIs, conventions, and file structure may differ. Read the relevant guide in `node_modules/next/dist/docs/` before writing Next.js code. Heed deprecation notices.
+
+## Repo-specific rules
+
+See `.cursor/rules/portfolio-showcase.mdc` for portfolio data paths, theme behavior, and key URLs.
